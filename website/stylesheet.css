@@ -4,6 +4,11 @@ body {
     font-size: large;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 #image{
     height: 250px;
     display: inline-block;
@@ -53,6 +58,10 @@ body {
     border-radius: 15px;
     box-shadow: 0 0 10px 0px #120C0D;
 }
+
+.contact-row{
+    margin-top: 120px;
+}
 /*
 #divright img
 {
@@ -84,6 +93,7 @@ body {
 
 .container{
     max-width: 75%;
+    min-height: 100vh;
     background-color: white;
     box-shadow: 0 0 40px 10px #120C0D;
 }
