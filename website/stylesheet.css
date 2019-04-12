@@ -104,7 +104,7 @@ li{
 }*/
 
 .container{
-    max-width: 75%;
+    min-width: 75%;
     min-height: 100vh;
     background-color: white;
     box-shadow: 0 0 40px 10px #120C0D;
