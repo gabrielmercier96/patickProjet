@@ -1,0 +1,42 @@
+#image{
+    height: 250px;
+    width: 2000px;
+}
+.topnav
+{
+    margin-top: -40px;
+    font-size: 30;
+    
+}
+.topnav a
+{
+    text-decoration: none;
+}
+#divright img
+{
+    margin-top: 10px;
+    height :250px;
+    margin-left: 20px; 
+    
+}
+#divright p {
+    
+    font-size: 20;
+    margin-right: 50px;
+  float: right;
+    
+}
+#divgauche img
+{
+    margin-top: 10px;
+    height :250px;
+    margin-left: 580px; 
+    
+}
+#divgauche p {
+    
+    font-size: 20; 
+    margin-right: 50px;
+    float:left;
+    
+}
