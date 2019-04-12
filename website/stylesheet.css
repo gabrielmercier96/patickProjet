@@ -1,17 +1,59 @@
+body {
+    font-family: Ubuntu, "times new roman", times, roman, serif;
+    background-color: #00B3C5;
+    font-size: large;
+}
+
 #image{
     height: 250px;
+    display: inline-block;
+    float: right;
+    margin-right: -30px;
+}
+
+.baniere{
     width: 100%;
+    background-color: #00B3C5;
+    height: 250px;
+    margin-left: -15px;
+
 }
 .topnav
 {
-    margin-top: -40px;
+    /*display: inline-block;*/
+    position: absolute;
+    top: 200px;
     font-size: 30;
+    margin-left: 10px;
+
     
 }
 .topnav a
 {
     text-decoration: none;
+    color: #89CBD8;
 }
+
+.home-row{
+    /*height: 350px;*/
+    margin-top: 25px;
+    width: 100%;
+
+
+}
+.home-row img{
+    width: 100%;
+
+
+}
+.inner-home-row{
+    width: 80%;
+    padding: 15px;
+    border: 1px solid #120C0D;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0px #120C0D;
+}
+/*
 #divright img
 {
     margin-top: 10px;
@@ -23,8 +65,8 @@
     
     font-size: 20;
     margin-right: 50px;
-  float: right;
-    
+    float: right;
+
 }
 #divgauche img
 {
@@ -38,5 +80,10 @@
     font-size: 20; 
     margin-right: 50px;
     float:left;
-    
+}*/
+
+.container{
+    max-width: 75%;
+    background-color: white;
+    box-shadow: 0 0 40px 10px #120C0D;
 }
